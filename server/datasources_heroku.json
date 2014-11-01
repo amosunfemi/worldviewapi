@@ -18,3 +18,24 @@
     "user": "socrmtjnmzukks"
   }
 }
+
+{
+"db": {
+"host": "localhost",
+"port": 5433,
+"database": "test",
+"password": "sunday123",
+"name": "db",
+"connector": "postgresql",
+"user": "postgres"
+},
+"worldview": {
+"host": "localhost",
+"port": 5433,
+"database": "worldview",
+"password": "sunday123",
+"name": "worldview",
+"connector": "postgresql",
+"user": "postgres"
+}
+}

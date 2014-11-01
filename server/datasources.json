@@ -1,20 +1,20 @@
 {
-  "db": {
-    "host": "localhost",
-    "port": 5433,
-    "database": "test",
-    "password": "sunday123",
-    "name": "db",
-    "connector": "postgresql",
-    "user": "postgres"
-  },
-  "worldview": {
-    "host": "localhost",
-    "port": 5433,
-    "database": "worldview",
-    "password": "sunday123",
-    "name": "worldview",
-    "connector": "postgresql",
-    "user": "postgres"
-  }
+"db": {
+"host": "ec2-54-225-136-187.compute-1.amazonaws.com",
+"port": 5432,
+"database": "d6p2bubmrikmae",
+"password": "No4jgjRCVHuuLj7GWD9t4_zt3",
+"name": "db",
+"connector": "postgresql",
+"user": "socrmtjnmzukks"
+},
+"worldview": {
+"host": "ec2-54-225-136-187.compute-1.amazonaws.com",
+"port": 5432,
+"database": "d6p2bubmrikmae",
+"password": "No4jgjRCVHuuLj7GWD9t4_zt3",
+"name": "worldview",
+"connector": "postgresql",
+"user": "socrmtjnmzukks"
+}
 }
