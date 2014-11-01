@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Customer": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Country": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "AccountType": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Bank": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "BankAccount": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "CardDetails": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "CardProduct": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Contact": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Currency": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "CustomerCards": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "CustomerType": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "CustomerUser": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "GoodServices": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "IdType": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "MerchantAcct": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "MerchantGoods": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "RegionState": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "Transaction": {
+    "dataSource": "worldview",
+    "public": true
+  },
+  "WVUser": {
+    "dataSource": "db",
+    "public": true
+  }
+}
